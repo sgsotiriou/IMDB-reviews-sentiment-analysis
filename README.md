@@ -21,7 +21,7 @@ In summary, the entire project was created in Python 3.11, and the libraries use
 
 The models and the preparation of the data are contained in the 'IMDB-reviews-sentiment-analisi.ipynb' notebook located in the 'src' folder. This notebook contains the code for the hyperparameter tuning and the training of each model.
 
-## How to test your own Reviews
+## How to test your own reviews
 
 The code 'demo.py' contains a code that lets the user test a review of his choice and get a sentiment classification. The current iteration reads the model from the folder 'models', the review from the file 'demo' and gives a prediction based on that. At this point, the model used is svm classifier.
 
